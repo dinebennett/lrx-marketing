@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<meta property="og:title" content="LRX Marketing"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content=""/> <!--TODO: url-->
+<meta property="og:image" content=""/> <!--TODO: url-->
+<meta property="og:site_name" content="LRX Marketing"/>
+<meta property="og:description" content="Industrial and commercial fans"/>
+
+<title>LRX MARKETING - Industrial and Commercial Fans</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/w3.css">
+<link rel="stylesheet" href="styles/custom-style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="favicon.png"/>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+        <a href="#home" class="w3-bar-item w3-button w3-wide">LRX MARKETING</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+            <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-info-circle"></i> ABOUT US</a>
+            <a href="#products" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PRODUCTS</a>
+            <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+           onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large"
+     style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+       class="w3-bar-item w3-button w3-padding-16">BACK HOME</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#products" onclick="w3_close()" class="w3-bar-item w3-button">PRODUCTS</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-left w3-text-white" style="padding:48px">
+        <span class="w3-jumbo w3-hide-small gray-heading">LRX Marketing</span><br>
+        <span class="gray-subheading">Industrial and Commercial Fans</span>
+        <p><a href="#products"
+              class="w3-button w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off gray-button">
+            See our products now
+        </a></p>
+    </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:164px 16px" id="about">
+    <div class="w3-row-padding about-flex">
+        <div class="w3-col m12 lrx-col">
+            <h2>ABOUT US</h2>
+            <p>
+                <b>WHO ARE WE?</b>
+                <br/>LRX Marketing is a Port Elizabeth based business competing in the South African market
+                for fans (air
+                moving devices) and accessories.
+            </p>
+            <p>
+                <b>WHAT DO WE DO?</b>
+                <br/>LRX Marketing sources, imports and supplies fans (air moving devices) and accessories to
+                organizations distributing and trading fans in the South African market.
+            </p>
+            <p>
+                <b>HOW TO DEAL WITH US?</b>
+                <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt mollit anim id est laborum.
+            </p>
+            <p><a href="#work" class="w3-button w3-black"><i class="fa fa-envelope">&nbsp;</i> Contact Us</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Products Section -->
+<div class="w3-container" style="padding:0 0 0 0" id="products">
+    <!-- Fan One -->
+    <div class="w3-row-padding w3-light-grey w3-more-padding fan-image">
+        <div class="lrx-col">
+            <div class="w3-col m7">
+                <h3>FAN NUMBER ONE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="w3-col m5 center-image">
+                <img class="w3-image w3-round-medium fan-small" src="images/fan1.png">
+            </div>
+        </div>
+    </div>
+    <!-- Fan Two -->
+    <div class="w3-row-padding w3-more-padding fan-image">
+        <div class="lrx-col">
+            <div class="w3-col m5 center-image">
+                <img class="w3-image w3-round-medium fan-small" src="images/fan2.jpg">
+            </div>
+            <div class="w3-col m7">
+                <h3>FAN NUMBER TWO</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Fan Three -->
+    <div class="w3-row-padding w3-light-grey w3-more-padding fan-image">
+        <div class="lrx-col">
+            <div class="w3-col m7">
+                <h3>FAN NUMBER THREE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="w3-col m5 center-image">
+                <img class="w3-image w3-round-medium fan-small" src="images/fan3.png">
+            </div>
+        </div>
+    </div>
+    <!-- Fan Four -->
+    <div class="w3-row-padding w3-more-padding fan-image">
+        <div class="lrx-col">
+            <div class="w3-col m5 center-image">
+                <img class="w3-image w3-round-medium fan-small" src="images/fan4.png">
+            </div>
+            <div class="w3-col m7">
+                <h3>FAN NUMBER FOUR</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Fan Five -->
+    <div class="w3-row-padding w3-light-grey w3-more-padding fan-image">
+        <div class="lrx-col">
+            <div class="w3-col m7">
+                <h3>FAN NUMBER FIVE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="w3-col m5 center-image">
+                <img class="w3-image w3-round-medium fan-small" src="images/fan5.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container" style="padding:128px 16px" id="contact">
+    <h3 class="w3-center">CONTACT</h3>
+    <div class="w3-row-padding about-flex lrx-col" style="margin-top:64px">
+        <div class="w3-col m6 center-image">
+            <img class="w3-image w3-round-large" src="images/piet-le-roux.jpg">
+        </div>
+        <div class="w3-col m6">
+            <div class="contact-block">
+                <p><i class="fa fa-user fa-fw w3-xxlarge w3-margin-right"></i> Piet le Roux</p>
+                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Port Elizabeth, South Africa</p>
+                <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> +27 (0) 82 902 0791</p>
+                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> piet@lrxm.co.za</p>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <p>Made by <a href="https://twitter.com/dinebennett" target="_blank" class="w3-hover-text-green">Diné</a></p>
+</footer>
+
+<script>
+
+    // Modal Image Gallery
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+        if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+        } else {
+            mySidebar.style.display = 'block';
+        }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+
+</script>
+
+</body>
+</html>
