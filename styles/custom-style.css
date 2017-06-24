@@ -12,8 +12,9 @@ body, html {
 }
 
 .bgimg-1:after {
+    background-position: right;
     background-size: cover;
-    background: url("../images/fan-upclose.jpg") right;
+    background-image: url("../images/fan-upclose.jpg");
     opacity: 0.4;
     content: "";
     top: 0;
