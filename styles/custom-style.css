@@ -1,0 +1,92 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif
+}
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+.bgimg-1 {
+    min-height: 100%;
+}
+
+.bgimg-1:after {
+    background-size: cover;
+    background: url("../images/fan-upclose.jpg") right;
+    opacity: 0.4;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.gray-heading {
+    color: #2d2d2d;
+    font-weight: 800;
+}
+
+.gray-subheading {
+    color: #2d2d2d;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.gray-button {
+    background-color: #252525;
+}
+
+.center-image {
+    text-align: center;
+}
+
+.fan-small {
+    max-height: 300px;
+}
+
+.w3-more-padding {
+    padding-bottom: 40px;
+}
+
+.fan-image {
+    padding: 32px 16px;
+    min-height: 450px;
+}
+
+.contact-block {
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .center-image {
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 993px) {
+    .image-padding {
+        padding: 60px 60px !important;
+    }
+}
+
+@media (min-width: 601px) {
+    .about-flex {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .fan-image {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+}
